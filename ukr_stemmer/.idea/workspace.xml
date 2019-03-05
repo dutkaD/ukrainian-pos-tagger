@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="44b3efaa-b9ee-4a21-80c9-6adc3932bd79" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../neural-network-pos-tagger-master/nn-tagger/data/models/rus_FNN/normal/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../neural-network-pos-tagger-master/nn-tagger/data/models/rus_FNN/normal/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../neural-network-pos-tagger-master/nn-tagger/data/models/rus_FNN/normal/model-34000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../neural-network-pos-tagger-master/nn-tagger/data/models/rus_FNN/normal/model-34000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../neural-network-pos-tagger-master/nn-tagger/data/models/rus_FNN/normal/model-34000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../neural-network-pos-tagger-master/nn-tagger/data/models/rus_FNN/normal/model-35000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../neural-network-pos-tagger-master/nn-tagger/data/models/rus_FNN/normal/model-35000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../neural-network-pos-tagger-master/nn-tagger/data/models/rus_FNN/normal/model-35000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../neural-network-pos-tagger-master/nn-tagger/data/models/rus_FNN/normal/tensors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../neural-network-pos-tagger-master/nn-tagger/data/models/rus_FNN/normal/vocabulary" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../neural-network-pos-tagger-master/nn-tagger/data/models/rus_RNN/dev_test/eval.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../neural-network-pos-tagger-master/nn-tagger/data/models/rus_RNN/normal/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../neural-network-pos-tagger-master/nn-tagger/data/models/ukr_FNN/dev_test/chart_training.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../neural-network-pos-tagger-master/nn-tagger/data/models/ukr_FNN/dev_test/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../neural-network-pos-tagger-master/nn-tagger/data/models/ukr_FNN/dev_test/eval.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../neural-network-pos-tagger-master/nn-tagger/data/models/ukr_FNN/dev_test/log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../neural-network-pos-tagger-master/nn-tagger/data/models/ukr_FNN/dev_test/model-5000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../neural-network-pos-tagger-master/nn-tagger/data/models/ukr_FNN/dev_test/model-5000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../neural-network-pos-tagger-master/nn-tagger/data/models/ukr_FNN/dev_test/model-5000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../neural-network-pos-tagger-master/nn-tagger/data/models/ukr_FNN/dev_test/tensors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../neural-network-pos-tagger-master/nn-tagger/data/models/ukr_FNN/dev_test/vocabulary" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../neural-network-pos-tagger-master/nn-tagger/data/models/ukr_FNN/random/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../neural-network-pos-tagger-master/nn-tagger/data/models/ukr_FNN/random/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../neural-network-pos-tagger-master/nn-tagger/data/models/ukr_FNN/random/model-32000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../neural-network-pos-tagger-master/nn-tagger/data/models/ukr_FNN/random/model-32000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../neural-network-pos-tagger-master/nn-tagger/data/models/ukr_FNN/random/model-32000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../neural-network-pos-tagger-master/nn-tagger/data/models/ukr_FNN/random/model-33000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../neural-network-pos-tagger-master/nn-tagger/data/models/ukr_FNN/random/model-33000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../neural-network-pos-tagger-master/nn-tagger/data/models/ukr_FNN/random/model-33000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../neural-network-pos-tagger-master/nn-tagger/data/models/ukr_FNN/random/tensors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../neural-network-pos-tagger-master/nn-tagger/data/models/ukr_FNN/random/vocabulary" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../neural-network-pos-tagger-master/nn-tagger/data/models/ukr_RNN/dev_test/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../neural-network-pos-tagger-master/nn-tagger/data/models/ukr_RNN/random/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../neural-network-pos-tagger-master/nn-tagger/print_stats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Archive/03.10/Training results FNN/TrainedAndEvalRus/tensors" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../neural-network-pos-tagger-master/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../neural-network-pos-tagger-master/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../neural-network-pos-tagger-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../neural-network-pos-tagger-master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../neural-network-pos-tagger-master/nn-tagger/data/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../neural-network-pos-tagger-master/nn-tagger/data/prepare_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/../neural-network-pos-tagger-master/nn-tagger/data/prepare_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../neural-network-pos-tagger-master/nn-tagger/data/test_rus_corpus.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../neural-network-pos-tagger-master/nn-tagger/data/test_rus_corpus.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../neural-network-pos-tagger-master/nn-tagger/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../neural-network-pos-tagger-master/nn-tagger/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../neural-network-pos-tagger-master/nn-tagger/tagger.py" beforeDir="false" afterPath="$PROJECT_DIR$/../neural-network-pos-tagger-master/nn-tagger/tagger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../neural-network-pos-tagger-master/venv/lib/python3.6/site-packages/absl/third_party/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Data/100-tys-win/mono.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../neural-network-pos-tagger-master/venv/lib/python3.6/site-packages/core/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../neural-network-pos-tagger-master/log/russian_eval_21.10" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parser/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../parser/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parser/.idea/parser.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../parser/.idea/parser.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parser/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../parser/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parser/data/ru_syntagrus-ud-dev.conllu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parser/data/ru_syntagrus-ud-test.conllu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parser/data/ru_syntagrus-ud-train.conllu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parser/data/uk_iu-ud-dev.conllu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parser/data/uk_iu-ud-test.conllu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parser/data/uk_iu-ud-train.conllu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parser/out/dev_rus_corpus.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parser/out/dev_ukr_corpus.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parser/out/test_rus_corpus.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parser/out/test_ukr_corpus.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parser/out/train_ukr_corpus.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parser/prepare_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/../parser/prepare_data.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="748562271">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="50" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="50" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ukr_stemmer3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_stemmer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="36" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test_stemmer.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="1853" />
+    <option name="height" value="1055" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ukr_stemmer-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ukr_stemmer-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.test_stemmer">
+    <configuration name="test_stemmer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ukr_stemmer-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_stemmer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ukr_stemmer3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ukr_stemmer-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ukr_stemmer3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.ukr_stemmer3" />
+      <item itemvalue="Python.test_stemmer" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test_stemmer" />
+        <item itemvalue="Python.ukr_stemmer3" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44b3efaa-b9ee-4a21-80c9-6adc3932bd79" name="Default Changelist" comment="" />
+      <created>1542720971290</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542720971290</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24972677" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32972974" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ukr_stemmer.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ukr_stemmer3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_stemmer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
