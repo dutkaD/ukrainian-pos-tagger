@@ -2,5 +2,5 @@
 A part-of-speech tagger for Ukrainian
 
 The tagger can be used in two modes:
-* Standard
-* Stemming
+* With evaluation
+* No evaluation
