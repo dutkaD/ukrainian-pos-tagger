@@ -7,8 +7,9 @@ The tagger can be used in two modes:
 * With evaluation
 * No evaluation
 
+### SETUP
 
-Download `data.pkl` and `ukrainianV1.h5` files from [here](https://github.com/dutkaD/tagger_data) and copy them your tagger-directory:
+Download `data.pkl` and `ukrainianV1.h5` files from [here](https://github.com/dutkaD/tagger_data) and copy them your tagger-directory.
 
 
 
