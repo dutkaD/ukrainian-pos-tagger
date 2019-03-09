@@ -6,3 +6,9 @@ Model is trained on the [Bidirectional LSTM](https://github.com/aneesh-joshi/LST
 The tagger can be used in two modes:
 * With evaluation
 * No evaluation
+
+
+Download `data.pkl` and `ukrainianV1.h5` files from [here](https://github.com/dutkaD/tagger_data) and copy them your tagger-directory:
+
+
+
