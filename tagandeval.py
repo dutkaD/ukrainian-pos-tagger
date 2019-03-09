@@ -3,6 +3,8 @@ import pickle
 import numpy as np
 from keras.preprocessing.sequence import pad_sequences
 from nltk import SnowballStemmer
+
+from evaluate import evaluate, Evaluation
 from ukr_stemmer.ukr_stemmer3 import UkrainianStemmer
 
 DATA = "pickledSTEM"
@@ -18,25 +20,12 @@ STEMMER = True  # False if the complete forms of the words should be passed to t
 LANGUAGE = "ua"  # "ru" for Russian. "ua" for Ukrainian
 EVALUATE = True
 
-tags_correct = 0
-sentences_correct = 0
-overall_tags = 0
-overall_sentences = 0
-counter = 0
-
-
-def evaluate(correct_tags, predicted):
-    correct = 0
-    sentece = False
-    for i in range(len(correct_tags)):
-        try:
-            if correct_tags[i] == predicted[i]:
-                correct += 1
-            if correct == len(predicted):
-                sentece = True
-        except IndexError:
-            pass
-    return correct, sentece
+# tags_correct = 0
+# sentences_correct = 0
+# overall_tags = 0
+# overall_sentences = 0
+# counter = 0
+eval = Evaluation()
 
 
 def write_tagged(words, tags):
@@ -118,19 +107,20 @@ for i in range(len(words_pro_sent)):
     predicted_tags = get_predicted_tags(prediction, words_pro_sent[i])
 
     if EVALUATE:
+
         corr, sent = evaluate(correct_tags[i], predicted_tags)
 
-        overall_tags += len(correct_tags[i])
-        overall_sentences += 1
-        tags_correct += corr
+        eval.overall_tags += len(correct_tags[i])
+        eval.overall_sentences += 1
+        eval.tags_correct += corr
         if sent:
-            sentences_correct += 1
+            eval.sentences_correct += 1
 
     write_tagged(words_pro_sent[i], predicted_tags)
     print(i)
 
 if EVALUATE:
-    print("{}/{} - {}".format(tags_correct, overall_tags, round(tags_correct / overall_tags * 100, 2)))
-    print("{}/{} - {}".format(sentences_correct, overall_sentences, round(sentences_correct / overall_sentences * 100, 2)))
+    print("{}/{} - {}".format(eval.tags_correct, eval.overall_tags, round(eval.tags_correct / eval.overall_tags * 100, 2)))
+    print("{}/{} - {}".format(eval.sentences_correct, eval.overall_sentences, round(eval.sentences_correct / eval.overall_sentences * 100, 2)))
 
 # stats.show_results()
