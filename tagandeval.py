@@ -20,12 +20,7 @@ STEMMER = True  # False if the complete forms of the words should be passed to t
 LANGUAGE = "ua"  # "ru" for Russian. "ua" for Ukrainian
 EVALUATE = True
 
-# tags_correct = 0
-# sentences_correct = 0
-# overall_tags = 0
-# overall_sentences = 0
-# counter = 0
-eval = Evaluation()
+evaluator = Evaluation()
 
 
 def write_tagged(words, tags):
@@ -83,7 +78,7 @@ for line in test_corpus:
     correct_tags.append(tags)
 tokenized_sentence = []
 
-# stats = evaluation.Stats(int2tag, tag2int, tag2instances)
+
 fails = []
 for i in range(len(words_pro_sent)):
     for word in words_pro_sent[i]:
@@ -107,20 +102,12 @@ for i in range(len(words_pro_sent)):
     predicted_tags = get_predicted_tags(prediction, words_pro_sent[i])
 
     if EVALUATE:
-
-        corr, sent = evaluate(correct_tags[i], predicted_tags)
-
-        eval.overall_tags += len(correct_tags[i])
-        eval.overall_sentences += 1
-        eval.tags_correct += corr
-        if sent:
-            eval.sentences_correct += 1
+        evaluator.calculate_correct(correct_tags[i], predicted_tags)
 
     write_tagged(words_pro_sent[i], predicted_tags)
     print(i)
 
 if EVALUATE:
-    print("{}/{} - {}".format(eval.tags_correct, eval.overall_tags, round(eval.tags_correct / eval.overall_tags * 100, 2)))
-    print("{}/{} - {}".format(eval.sentences_correct, eval.overall_sentences, round(eval.sentences_correct / eval.overall_sentences * 100, 2)))
+    evaluator.print_eval()
 
-# stats.show_results()
+
