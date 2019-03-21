@@ -1,4 +1,6 @@
 import pickle
+import sys
+
 from keras.preprocessing.sequence import pad_sequences
 import numpy as np
 from keras.models import load_model
@@ -6,12 +8,13 @@ from evaluate import Evaluation
 from ukr_stemmer.ukr_stemmer3 import UkrainianStemmer
 
 DATA = "pickledSTEM"
-MODEL = "stemmed_no_embeddingsboth-005.h5"
+MODEL = "ukrainianV1.h5"
 out = "result.txt"
 
-
+# todo: sentencewise
 class Tagger:
-    def __init__(self, input_file, evaluate=True):
+    def __init__(self, input, evaluate=False, instant=False):
+        self.instant = instant
         self.model = load_model(MODEL)
         self.evaluate = evaluate
         if self.evaluate:
@@ -23,7 +26,7 @@ class Tagger:
         self.tag2int, \
         self.int2tag, \
         self.tag2instances = load_data()
-        self.input_texts = load_input(input_file)
+        self.input_texts = input
         self.words_pro_sent = []
         self.correct_tags = []
         self.tokenized_sentence = []
@@ -35,13 +38,18 @@ class Tagger:
             tags = []
             if len(line) > 0:
                 for word in line.split():
-                    try:
-                        w, tag = word.split('/')
-                        w = w.lower()
-                        words.append(w)
-                        tags.append(tag)
-                    except:
-                        print("AHA")
+                    if self.evaluate:
+                        try:
+                            w, tag = word.split('/')
+                            w = w.lower()
+                            words.append(w)
+                            tags.append(tag)
+                        except:
+                            print("Could not split by / - {}".format(word))
+                    else:
+                        words.append(word)
+                        tags.append("UNK")
+
             self.words_pro_sent.append(words)
             self.correct_tags.append(tags)
 
@@ -94,6 +102,7 @@ def load_data():
 
 
 def load_input(input):
+    # todo: rename variables
     try:
         with open(input) as test_f:
             test_corpus = test_f.readlines()
@@ -115,13 +124,39 @@ def write_tagged(words, tags):
         f.write(sentence)
 
 
+if __name__ == "__main__":
+    text = []
+    try:
+        input_file = sys.argv[1]
+        text = load_input(input_file)
+        tagger = Tagger(text)
+        tagger.label_data()
+    except IndexError:
+        text.append(input("Enter your setntence:"))
+        tagger = Tagger(text)
+        tagger.label_data()
+    if len(sys.argv)>2:
+        print("Too many arguments...")
 
 
 
 
 
-tagger = Tagger("clean_test.txt")
-tagger.label_data()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
