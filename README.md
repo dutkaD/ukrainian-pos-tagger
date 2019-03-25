@@ -16,6 +16,20 @@ Download `data.pkl` and `ukrainianV1.h5` files from [here](https://github.com/du
 - `python3 tagger.py` program will ask you to enter your sentence from terminal
 - `python3 tagger.py filename` will tag the text from the input file
 
+### CLASS TAGGER
+```
+        tagger = Tagger("Цей пан платить за все ")
+        tagger.label_data()
+        print(tagger.predicted_tags)
+        
+        
+        >>> [['PRON', 'NOUN', 'VERB', 'ADP', 'PRON']]
+       
+```
+
+
+### TAGSET
+Since the tagger was trained in the  [Universal Dependencies](https://universaldependencies.org) texts, the texts are annotated with the same tagset. The explanations to the annotations can be found  [here](https://universaldependencies.org/u/pos/).
 
 
 
