@@ -29,7 +29,7 @@ Download `data.pkl` and `ukrainianV1.h5` files from [here](https://github.com/du
 
 
 ### TAGSET
-Since the tagger was trained in the  [Universal Dependencies](https://universaldependencies.org) texts, the texts are annotated with the same tagset. The explanations to the annotations can be found  [here](https://universaldependencies.org/u/pos/).
+Since the tagger was trained on the  [Universal Dependencies](https://universaldependencies.org) texts, the texts are annotated with the same tagset (overall 17 tags). The explanations to the annotations can be found  [here](https://universaldependencies.org/u/pos/).
 
 
 
