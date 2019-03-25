@@ -28,6 +28,7 @@ class Tagger:
         self.tag2instances = load_data()
         self.input_texts = input
         self.words_pro_sent = []
+        self.predicted_tags = []
         self.correct_tags = []
         self.tokenized_sentence = []
 
@@ -66,6 +67,8 @@ class Tagger:
 
 
     def label_data(self):
+        words = []
+        predicted = []
         self.make_lists()
         for i in range(len(self.words_pro_sent)):
             for word in self.words_pro_sent[i]:
@@ -87,7 +90,7 @@ class Tagger:
                 self.evaluator.calculate_correct(self.correct_tags[i], predicted_tags)
 
             write_tagged(self.words_pro_sent[i], predicted_tags)
-            print(i)
+            self.predicted_tags.append(predicted_tags)
 
         if self.evaluate:
             self.evaluator.print_eval()
@@ -131,11 +134,13 @@ if __name__ == "__main__":
         text = load_input(input_file)
         tagger = Tagger(text)
         tagger.label_data()
+        print(tagger.predicted_tags)
     except IndexError:
         text.append(input("Enter your setntence:"))
         tagger = Tagger(text)
         tagger.label_data()
-    if len(sys.argv)>2:
+        print(tagger.predicted_tags)
+    if len(sys.argv) > 2:
         print("Too many arguments...")
 
 
